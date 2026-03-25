@@ -100,7 +100,7 @@ function analyzeCode(code, editor) {
 }
 
 async function realAIAnalysis(code) {
-    const apiKey = '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'; // OpenRouter API key
+    const apiKey = 'ENTER YOUR API KEY'; // OpenRouter API key
     const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: {
